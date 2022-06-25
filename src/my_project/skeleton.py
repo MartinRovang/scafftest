@@ -26,6 +26,7 @@ import sys
 
 from my_project import __version__
 import my_project.preprocessing
+import my_project.training
 
 __author__ = "MartinRovang"
 __copyright__ = "MartinRovang"

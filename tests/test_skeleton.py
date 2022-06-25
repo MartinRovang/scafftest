@@ -1,6 +1,7 @@
 import pytest
 
 from my_project.skeleton import fib, main
+from my_project.training import train
 
 __author__ = "MartinRovang"
 __copyright__ = "MartinRovang"
@@ -12,6 +13,7 @@ def test_fib():
     assert fib(1) == 1
     assert fib(2) == 1
     assert fib(7) == 13
+    assert train() == "this is the training sequence"
     with pytest.raises(AssertionError):
         fib(-10)
 
