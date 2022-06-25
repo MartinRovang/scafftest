@@ -25,7 +25,7 @@ import logging
 import sys
 
 from my_project import __version__
-import preprocessing
+import my_project.preprocessing
 
 __author__ = "MartinRovang"
 __copyright__ = "MartinRovang"
